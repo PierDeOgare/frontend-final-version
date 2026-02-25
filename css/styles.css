@@ -19,9 +19,75 @@
     border-radius: 12px;
     text-align: center;
     font-weight: 600;
+    background-color: #2f2f2f;
 }
 
 .pink { background-color: #f8d7da; }
 .green { background-color: #d1f2eb; }
 .peach { background-color: #f9e79f; }
 .lightpink { background-color: #fadbd8; }
+
+.highlight-box {
+    background-color: #282723;
+    color: #c9a227;
+    font-size: larger;
+    font-weight: 650;
+    border-radius: 10px;
+}
+
+.white{
+    color: white;
+    font-size: small;
+}
+
+/*MEMBERSHIP CONTAINER*/
+/* Base membership container */
+.membership-section {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.membership-header {
+    padding: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Default states */
+.foundation .membership-header {
+    background-color: #c9a227; /* gold */
+    color: #ffffff;
+}
+
+.economy .membership-header {
+    background-color: #3f5c6e; /* dull blue */
+    color: white;
+}
+
+/* Hidden by default */
+.membership-description {
+    display: none;
+    padding: 15px;
+}
+
+/* Active state */
+.membership-section.active .membership-description {
+    display: block;
+    background-color: #2f2f2f; /* dark grey */
+    color: white;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Golden credits strip */
+.credits-strip {
+    background-color: #c9a227; /* gold */
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
