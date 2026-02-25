@@ -13,3 +13,15 @@
     height: 60px;
     object-fit: cover;
 }
+
+.stat-card {
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.pink { background-color: #f8d7da; }
+.green { background-color: #d1f2eb; }
+.peach { background-color: #f9e79f; }
+.lightpink { background-color: #fadbd8; }
